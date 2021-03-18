@@ -157,12 +157,8 @@ export const GameHasReallyStarted = function(event) {
     $boot.append(duck);
     const $cut = $('#cut');
     $cut.empty()
-    let geu = `     
-    <div class="content has-text-centered">
-        <img src="image.png" alt="Question 1">
-        </div>
-    `
-    $cut.append(geu);
+    // I want the game graph to be appended here:
+    $cut.append();
 };
 
 export const EndTheGame = function(event) {
